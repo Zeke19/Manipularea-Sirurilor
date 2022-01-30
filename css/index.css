@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+#asigment_thead {
+    max-width: 1200px;
+    margin: 0 ;
+    background-color: rgba(0, 115, 247, 0.911);
+    color: white;
+    display: flex;
+}
+
+#asigment_table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    max-width: 1200px;
+    font-size: 1rem;
+    margin: 4em auto;
+}
+
+.tr {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+} 
+
+.td {
+    padding: 20px 32px;
+    width: 450px;
+    border-bottom: 1px solid grey;
+
+}
+
+.th {
+    padding: 24px 36px;
+    width: 450px;
+}
